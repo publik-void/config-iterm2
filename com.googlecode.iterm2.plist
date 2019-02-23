@@ -451,6 +451,8 @@
 	<false/>
 	<key>DoubleReportScrollWheel</key>
 	<false/>
+	<key>FlashTabBarInFullscreen</key>
+	<true/>
 	<key>FocusFollowsMouse</key>
 	<false/>
 	<key>GlobalTouchBarMap</key>
@@ -524,6 +526,31 @@
 		<key>TB Is Shown</key>
 		<integer>1</integer>
 	</dict>
+	<key>NSTouchBarConfig: full screen</key>
+	<dict>
+		<key>CurrentItems</key>
+		<array>
+			<string>iTermTouchBarIdentifierManPage</string>
+			<string>touchbar:ED14B5E9-279B-47DC-9413-1406743D2BF5</string>
+			<string>touchbar:51A24B60-2506-4546-9CE7-8D2B035D64FA</string>
+			<string>iTermTouchBarIdentifierColorPreset</string>
+			<string>iTermTouchBarFunctionKeysScrollView</string>
+			<string>iTermTouchBarIdentifierAutocomplete</string>
+			<string>NSTouchBarItemIdentifierOtherItemsProxy</string>
+		</array>
+		<key>DefaultItems</key>
+		<array>
+			<string>iTermTouchBarIdentifierManPage</string>
+			<string>iTermTouchBarIdentifierColorPreset</string>
+			<string>iTermTouchBarIdentifierFunctionKeys</string>
+			<string>NSTouchBarItemIdentifierFlexibleSpace</string>
+			<string>tab bar</string>
+			<string>NSTouchBarItemIdentifierOtherItemsProxy</string>
+			<string>iTermTouchBarIdentifierAddMark</string>
+			<string>iTermTouchBarIdentifierPreviousMark</string>
+			<string>iTermTouchBarIdentifierNextMark</string>
+		</array>
+	</dict>
 	<key>NSTouchBarConfig: regular</key>
 	<dict>
 		<key>CurrentItems</key>
@@ -549,9 +576,9 @@
 		</array>
 	</dict>
 	<key>NSWindow Frame SharedPreferences</key>
-	<string>474 345 958 470 0 0 1440 877 </string>
+	<string>474 418 770 429 0 0 1440 900 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>339 288 720 439 0 0 1440 877 </string>
+	<string>141 281 720 439 0 0 1440 877 </string>
 	<key>NeverWarnAboutShortLivedSessions_16CF927A-1E48-4B09-A5BA-E4672F572924</key>
 	<true/>
 	<key>NeverWarnAboutShortLivedSessions_16CF927A-1E48-4B09-A5BA-E4672F572924_selection</key>
@@ -1917,7 +1944,7 @@
 	<key>SUSendProfileInfo</key>
 	<false/>
 	<key>ShowFullScreenTabBar</key>
-	<false/>
+	<true/>
 	<key>ShowMetalFPSmeter</key>
 	<false/>
 	<key>SmartPlacement</key>

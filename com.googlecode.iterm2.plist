@@ -8,6 +8,8 @@
 	<true/>
 	<key>AutoCommandHistory</key>
 	<false/>
+	<key>ClickToSelectCommand</key>
+	<false/>
 	<key>CommandSelection</key>
 	<true/>
 	<key>CopyLastNewline</key>
@@ -3850,7 +3852,7 @@
 			<key>Disable Window Resizing</key>
 			<true/>
 			<key>Faint Text Alpha</key>
-			<real>0.50300396613354947</real>
+			<real>0.5</real>
 			<key>Flashing Bell</key>
 			<true/>
 			<key>Foreground Color</key>
